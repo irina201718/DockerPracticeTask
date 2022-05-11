@@ -81,8 +81,10 @@ $ sudo docker run -v $PWD:/mosquitto/config/ -p 1883:1883 -d --name mqtt-broker 
 $ sudo docker log mqtt-broker
 
 ```
+- Написали кучу кода в сенсорс.ру, докер файл, реквайроментс, мэйн.ру (на скрине фрагменты)
+![info](/assets/images/Codes.jpg)
 
-
+-Дальше проблема, терминал отказывает работать 
 
 
 
