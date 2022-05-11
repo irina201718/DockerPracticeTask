@@ -75,7 +75,12 @@ $ sudo docker run -v $PWD:/mosquitto/config/ -p 1883:1883 -d --name mqtt-broker 
 
 ```
 ![info](/assets/images/Create.jpg)
+- Проверка работы
+```javascript
 
+$ sudo docker log mqtt-broker
+
+```
 
 
 
