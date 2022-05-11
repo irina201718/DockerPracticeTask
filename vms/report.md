@@ -49,11 +49,32 @@ $ sudo apt install docker-ce
 $ sudo systemctl status docker
 
 ```
+![info](/assets/images/Check_Docker.jpg)
 
+## Создание файла mosquitto.conf
+1. Создание файла
+```javascript
 
+$ nano mosquitto.conf
 
+```
+2. Заполнение файла
+3. Вывод результата
+```javascript
 
+$ cat mosquitto.conf
 
+```
+![info](/assets/images/Mosquitto.conf.jpg)
+
+## Дальше по ходу движения задания
+- Аттачим, пробрасываем порты
+```javascript
+
+$ sudo docker run -v $PWD:/mosquitto/config/ -p 1883:1883 -d --name mqtt-broker eclipse-mosquitto
+
+```
+![info](/assets/images/Create.jpg)
 
 
 
