@@ -86,8 +86,32 @@ $ sudo docker log mqtt-broker
 
 - Дальше проблема, терминал отказывается работать 
 - Создаем докер компоуз
-- Заливайм всё на клиента (не получилось. слишком сложно)
+- Заливайм всё на клиента
+```javascript
 
+$ git clone https://github.com/irina201718/DockerPracticeTask.git
+
+```
+- Процесс создания образа, использующий Dockerfile
+```javascript
+
+$  docker build -t irina201718/simulator .
+
+```
+- Создаём и запускаем новый контейнер
+```javascript
+
+$   docker run -e SIM_HOST=192.168.1.132 -e SIM_TYPE=temperature --name temperature irina201718/simulator
+
+```
+- Демонстрируем запуск через docker-compose
+```javascript
+
+$ docker-compose up
+
+```
+![info](/assets/images/Git_Bush.jpg)
+![info](/assets/images/MQTT.jpg)
 
 
 
