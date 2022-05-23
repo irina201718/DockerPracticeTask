@@ -3,8 +3,8 @@
     * Использовать класс sensor и наследников
     * Использовать переменные среды для конфигурирования
     
-2. Показать настройку деплоя (через pycharm ssh)
-3. Показать запуск через докер
+2. Показать настройку **деплоя (я, кажется, понимаю о чем речь, но не уверена. Если речь про подключение к машинам через pycharm ssh, то это же доступно только в какой-то определенной версии? PRO? Если так, думаю, стоит это указать)** (через pycharm ssh)
+3. Показать запуск через докер **мб стоит сказать, что это в пайчарме в терминале?**
 ```shell
 docker build -t antonaleks/sensor-sim .
 docker run -e SIM_HOST=192.168.0.114 -e SIM_TYPE=temperature --name temperature antonaleks/sensor-sim
@@ -18,7 +18,7 @@ docker push antonaleks/sensor-sim
 ```shell
    docker run -v $PWD/mosquitto:/mosquitto/config -p 1883:1883 --name broker --rm eclipse-mosquitto
 ```
-3. Проверить через mqtt explorer
+3. Проверить через mqtt explorer **а тут наверное надо сказать, что это сторонняя программа, которую нужно установить :)**
 
 ### Ubuntu_3
 1. influx - развернуть контейнер, указать точки монтирования
