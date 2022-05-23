@@ -112,7 +112,10 @@ $ docker-compose up
 ```
 ![info](/assets/images/Git_Bush.jpg)
 ![info](/assets/images/MQTT.jpg)
+____________________________
+## Часть 2
+- Создаем виртуальные машины в докере. Конфигурируем, запускаем.
 
-
+![info](/assets/images/Image001.jpg)
 
 
