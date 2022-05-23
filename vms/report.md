@@ -115,7 +115,20 @@ $ docker-compose up
 ____________________________
 ## Часть 2
 - Создаем виртуальные машины в докере. Конфигурируем, запускаем.
+![info](/assets/images/001.jpg)
 
-![info](/assets/images/Image001.jpg)
+- Демонстрируем запуск через docker-compose
+```javascript
 
+$ docker-compose up
 
+```
+![info](/assets/images/002.jpg)
+![info](/assets/images/003.jpg)
+
+- Запускаем графический редактор графану. МУчаемся с корпаративными прокраммами, быстро настраиваем графики (источники данных и какие данные отображать).
+ ![info](/assets/images/004.jpg)
+ ![info](/assets/images/005.jpg)
+ 
+ - Делаем то же самое с двумя другими. Получаем красоту.
+ ![info](/assets/images/006.jpg)
